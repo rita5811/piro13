@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {margin:0; padding:0;}
+        li{list-style: none}
+        a {text-decoration: none; color:black;}
+
+        #header{
+            height:100px;
+            background-color: orange;
+        }
+        #header .logo_wrap{
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            position: relative;
+        }
+        #header .logo_wrap a{
+            display: inline-block;
+        }
+        #header .logo_wrap .menu{position: absolute; left: 10px;}
+        #header .logo_wrap .logo{color:#ffffff; font-size: 1.3em; font-weight: bold;}
+        #header .logo_wrap .myinfo{position: absolute; right: 10px;}
+
+        #header #search{position:relative; overflow:hidden; width: 100%; height:50px;}
+        #header #search input{float:left; width: 100%; height: 50px; border:5px solid #ea8f00;}
+        #header #search img {float: left; position: absolute; right: 0; top: 0;}
+
+        #lnb ul{overflow: hidden; margin: 7px 0;}
+        #lnb ul li{
+            width:16.6%; height:30px; line-height: 30px; text-align: center;
+            float: left; margin:0; padding: 0; border-right: 1px solid #cccccc; box-sizing: border-box;
+        }
+        #lnb ul li:last-child{border:0;}
+
+        #section #section_content_01{overflow: hidden;}
+        #section #section_content_01 .row1 div{width:50%; height:135px; line-height: 100px; text-align: center; float:left; border:2px solid #ffffff; box-sizing: border-box;}
+        #section #section_content_01 .row1 div:last-child{float:right;}
+        #section #section_content_01 .row2 div{width:50%; height:135px; line-height: 100px; text-align: center; float:left; border:2px solid #ffffff; box-sizing: border-box;}
+        #section #section_content_01 .row2 div:last-child{float:right;}
+        #section #section_content_01 .row3 div{width:50%; height:135px; line-height: 100px; text-align: center; float:left; border:2px solid #ffffff; box-sizing: border-box;}
+        #section #section_content_01 .row3 div:last-child{float:right;}
+        #section #section_content_01 img {width:100%; height:inherit;}
+
+        #section #section_content_02{overflow: hidden; margin-top: 10px;}
+        #section #section_content_02 ul li{padding: 8px; border-bottom: 1px solid #cccccc; white-space: nowrap; overflow: hidden; text-overflow:ellipsis}
+
+        #section #section_content_03{margin-top: 10px;}
+        #section #section_content_03 ul li {overflow:hidden; margin:10px; padding:!0px; border: 1px; solid #cccccc; box-sizing: border-box;}
+        #section #section_content_03 .img{float:left; width:100px; height:100px;}
+        #section #section_content_03 .txt{float:left; width:400px; height:100px;}
+        #section #section_content_03 .txt span{display: block; margin-left: 5px;}
+        #section #section_content_03 .txt span:first-child{font-size:1.1em; color;#0d5a9c; font-weight: bold;}
+        #section #section_content_03 .txt span:last-child{color:#464646; white-space: nowrap; overflow: hidden; text-overflow:ellipsis}
+
+        #footer p {text-align: center; padding:5px;}
+    </style>
+</head>
+<body>
+<header id="header">
+    <div id="header_wrap">
+        <div class="logo_wrap">
+            <a class="menu" href="#none" alt="menu"><img src=""/></a>
+            <a class="logo" href="#none" alt="logo"><img src=""/></a>
+            <a class="myinfo" href="#none" alt="myinfo"><img src=""/></a>
+        </div>
+    </div>
+
+    <div id="search">
+        <input type="text"/>
+        <a href="#none"><img src=""/></a>
+    </div>
+</header>
+
+<div id="lnb">
+    <ul>
+        <li><a href="#none">lnb1</a></li>
+        <li><a href="#none">lnb2</a></li>
+        <li><a href="#none">lnb3</a></li>
+        <li><a href="#none">lnb4</a></li>
+        <li><a href="#none">lnb5</a></li>
+        <li><a href="#none">lnb6</a></li>
+    </ul>
+</div>
+<section id="section">
+    <div id="section_content_01">
+        <div class="row1">
+            <div><img src=""/></div>
+            <div><img src=""/></div>
+        </div>
+        <div class="row2">
+            <div><img src=""/></div>
+            <div><img src=""/></div>
+        </div>
+        <div class="row3">
+            <div><img src=""/></div>
+            <div><img src=""/></div>
+        </div>
+    </div>
+    <div id="section_content_02">
+        <ul>
+            <li><a href="#none">중소기업이 생산한 제품을 엄격한 심사를 통하여 선정된 제품을 대상으로 서울어워드 우수상품 지정을 통해 국내 및 해외판로를 개척하고 다양한 홍보 프로모션을 통한 제품 판매에 도움을 드립니다.</a></li>
+            <li><a href="#none">중소기업이 생산한 제품을 엄격한 심사를 통하여 선정된 제품을 대상으로 서울어워드 우수상품 지정을 통해 국내 및 해외판로를 개척하고 다양한 홍보 프로모션을 통한 제품 판매에 도움을 드립니다.</a></li>
+            <li><a href="#none">중소기업이 생산한 제품을 엄격한 심사를 통하여 선정된 제품을 대상으로 서울어워드 우수상품 지정을 통해 국내 및 해외판로를 개척하고 다양한 홍보 프로모션을 통한 제품 판매에 도움을 드립니다.</a></li>
+            <li><a href="#none">중소기업이 생산한 제품을 엄격한 심사를 통하여 선정된 제품을 대상으로 서울어워드 우수상품 지정을 통해 국내 및 해외판로를 개척하고 다양한 홍보 프로모션을 통한 제품 판매에 도움을 드립니다.</a></li>
+            <li><a href="#none">중소기업이 생산한 제품을 엄격한 심사를 통하여 선정된 제품을 대상으로 서울어워드 우수상품 지정을 통해 국내 및 해외판로를 개척하고 다양한 홍보 프로모션을 통한 제품 판매에 도움을 드립니다.</a></li>
+        </ul>
+    </div>
+    <div id="section_content_03">
+        <ul>
+            <li>
+                <p class="img"><a href="#none"><img src=""/></a></p>
+                <p class="txt">
+                    <a href="#none">
+                        <span>서울산업진흥원</span>
+                        <span>중소기업이 생산한 제품을 엄격한 심사를 통하여 선정된 제품을 대상으로 서울어워드 우수상품 지정을 통해 국내 및 해외판로를 개척하고 다양한 홍보 프로모션을 통한 제품 판매에 도움을 드립니다.</span>
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p class="img"><a href="#none"><img src=""/></a></p>
+                <p class="txt">
+                    <a href="#none">
+                        <span>서울산업진흥원</span>
+                        <span>중소기업이 생산한 제품을 엄격한 심사를 통하여 선정된 제품을 대상으로 서울어워드 우수상품 지정을 통해 국내 및 해외판로를 개척하고 다양한 홍보 프로모션을 통한 제품 판매에 도움을 드립니다.</span>
+                    </a>
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<footer id="footer">
+    <div id="footer_wrap">
+        <p><img src="" alt="서울산업진흥원"/></p>
+        <p>121-904 서울 마포구 월드컵북로 상암동 400</p>
+    </div>
+</footer>
+</body>
+</html>
